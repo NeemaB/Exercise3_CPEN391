@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tip Calculator</string>
+    <string-array name="drawer_list_array">
+        <item>Tip Calculator</item>
+        <item>View Meals</item>
+    </string-array>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string-array name="restaurant_names">
+        <item> Hooters </item>
+        <item> Swiss Chalet </item>
+        <item> Earls </item>
+    </string-array>
+</resources>
