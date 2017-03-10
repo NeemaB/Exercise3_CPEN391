@@ -301,7 +301,7 @@ public class TipCalculatorFragment extends Fragment implements View.OnClickListe
             AlertDialog save_meal_dialog = builder.create();
             save_meal_dialog.setCanceledOnTouchOutside(true);
 
-            restaurant
+            Spinner restaurantNames = (Spinner) save_meal_dialog.findViewById(R.id.restaurant_names);
             // Create an ArrayAdapter using the string array and a default spinner layout
             ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getActivity(),
                     R.array.restaurant_names, android.R.layout.simple_spinner_item);
